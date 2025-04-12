@@ -19,3 +19,38 @@ window.addEventListener('scroll',()=>{
         navLinks.classList.add('bg-white','shadow-sm','bg-opacity-50');
     }
 })
+
+
+
+@media (min-width: 768px) 
+{
+  .menu-button {
+    display: none;
+  }
+  .nav ul{
+    display: flex;
+  }
+
+  
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .nav ul {
+      flex-direction: column;
+      margin: 1rem 0; /* Stack items vertically on smaller screens */
+  }
+    
+    
+    #sideMenu {
+      display:  200px; 
+  }
+
+  .signup,.login {
+    
+    display: none;
+
+}
+
+
+}
